@@ -11,8 +11,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/AOUnityWebBridge.git", branch: "develop"),
-        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/AOUnityWebBridge.git", from: "2.0.2"),
+        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", from: "2.0.2"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityQuestionnaireManager",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQuestionnaireManager/1.1.4-dev-1474543/UnityQuestionnaireManager.xcframework.zip",
-            checksum: "a2d0cc55af5fc14523792df69e38aabbdfa35558c46611cf3d99555ea7ad55ca"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQuestionnaireManager/1.1.4-dev-1480224/UnityQuestionnaireManager.xcframework.zip",
+            checksum: "50f858f423bc71b3e3953bf771c44c4bb921f86cce81bcf640b022e7c4e6d80e"
         )
     ]
 )
