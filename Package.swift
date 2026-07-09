@@ -37,7 +37,7 @@ let package = Package(
         .binaryTarget(
             name: "UnityQuestionnaireManager",
             url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQuestionnaireManager/2.0.3/UnityQuestionnaireManager.xcframework.zip",
-            checksum: "242e0ea93b0f8fb108cc48a601b4ed5e30fd6916f6f0e1c28f2e655e9bdf7b9d"
+            checksum: "ae907ab9395618f889a0cae45c4c513311cc96380646b5c8b422ab40352a24cb"
         )
     ]
 )
